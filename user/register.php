@@ -8,7 +8,7 @@
   			    	<h3 class="panel-title">JOIN US NOW!!</h3>
   			 	</div>
   			  	<div class="panel-body">
-  			    	<form accept-charset="UTF-8" role="form">
+  			    	<form accept-charset="UTF-8" role="form" method="post">
                       <fieldset>
   			    	  	<div class="form-group">
                     <label for="firstName">FIRST NAME</label>
