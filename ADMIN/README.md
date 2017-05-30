@@ -1,27 +1,75 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [SB Admin](http://startbootstrap.com/template-overviews/sb-admin/)
+AdminBSB - Material Design
+=======================
+[![npm version](https://img.shields.io/npm/v/adminbsb-materialdesign.svg)](https://www.npmjs.com/package/adminbsb-materialdesign)
+![Bower version](https://img.shields.io/bower/v/adminbsb-materialdesign.svg)
 
-[SB Admin](http://startbootstrap.com/template-overviews/sb-admin/) is an open source, admin dashboard template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+**AdminBSB - Material Design is a fully responsive and free admin template.** It was developed with [Bootstrap 3.x Framework](http://getbootstrap.com) and [Google Material Design](https://material.google.com) of powers.
 
-## Getting Started
+It's really easy to customize and usage. You can use for from 320px to large resolution pixels of new generation screens and mobile devices. (**Fully Responsive Material Design**)
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/sb-admin/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-sb-admin.git`
-* Fork the repo
+Looking for Premium Templates or Make Donation?
+----------------
+**If you need more features or if you want to make donation with buying template, please visit portfolio of mine which page link is [https://themeforest.net/user/gurayyarar/portfolio](http://bit.ly/2oPFpmQ)**
 
-## Bugs and Issues
+Demo
+----------------
+You can check the website preview with **[this link](https://gurayyarar.github.io/AdminBSBMaterialDesign/)**  
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-sb-admin/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/sb-admin/).
+![AdminBSB - Free Admin Template With Material Design](https://raw.githubusercontent.com/gurayyarar/AdminBSBMaterialDesign/master/images/screenshot.png)
 
-## Creator
+Installation
+----------------
+You can choose one from multiple ways for installation.
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+**GitHub**
+- Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
+- Clone to your machine
+```
+git clone https://github.com/YOUR_USERNAME/AdminBSBMaterialDesign.git
+```
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+**npm**
+```
+npm install adminbsb-materialdesign
+```
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+**bower**
+```
+bower install adminbsb-materialdesign
+```
 
-## Copyright and License
+Documentation
+----------
+Visit the **[documentation](https://gurayyarar.github.io/AdminBSBMaterialDesign/documentation/)**
 
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-sb-admin/blob/gh-pages/LICENSE) license.
+Browser Support
+----------
+- IE 10 +
+- Microsoft Edge (Latest)
+- Mozilla Firefox (Latest)
+- Google Chrome (Latest)
+- Opera (Latest)
+- Safari (Latest)
+
+Change Logs
+----------
+You can display all release notes with **[this link](https://gurayyarar.github.io/AdminBSBMaterialDesign/pages/changelogs.html)**
+
+
+FAQ
+===
+**Can I use this template for personal or commercial websites/web projects?**  
+Sure, you can use both of personal and commercial websites/web projects.
+
+**Is the attribution link required?**  
+No, not required. (Though very much appreciated)
+
+License
+----------
+**AdminBSB - Material Design** is an open source project that is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+Donations
+----------
+Donations are **greatly appreciated!**
+
+**[DONATE WITH BUY PREMIUM TEMPLATE](http://bit.ly/2oPFpmQ)**

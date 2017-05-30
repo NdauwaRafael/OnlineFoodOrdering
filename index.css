@@ -1,0 +1,26 @@
+body{
+   background: url(images/fff.jpg);
+   padding-top: 50px;
+}
+
+
+
+#backg {
+ background-color: rgba(0, 0, 0, 0.5);
+ color: #fff;
+}
+
+.navbar-cusom {
+	background-color: #66bb6a;
+}
+
+.navbar-cusom li a {
+	color: #ede7f6 !important;
+
+	font-family: tahoma;
+	font-size: 1.2em;
+}
+
+.navbar-cusom li a:hover{
+	color: #f44336 !important;
+}

@@ -8,7 +8,7 @@
   			    	<h3 class="panel-title">JOIN US NOW!!</h3>
   			 	</div>
   			  	<div class="panel-body">
-  			    	<form accept-charset="UTF-8" role="form" method="post">
+  			    	<form accept-charset="UTF-8" action="user/config/register.php" role="form" method="post">
                       <fieldset>
   			    	  	<div class="form-group">
                     <label for="firstName">FIRST NAME</label>
@@ -16,8 +16,8 @@
   			    		</div>
 
                 <div class="form-group">
-                  <label for="firstName">LAST NAME</label>
-                   <input name="firstName" class="form-control" type="text">
+                  <label for="lastName">LAST NAME</label>
+                   <input name="lastName" class="form-control" type="text">
               </div>
 
   			    		<div class="form-group">
@@ -27,22 +27,22 @@
 
                 <div class="form-group">
                   <label for="firstName">PHONE NUMBER:</label>
-                   <input name="firstName" class="form-control" type="text">
+                   <input name="phone" class="form-control" type="text">
               </div>
 
               <div class="form-group">
                 <label for="firstName">RESIDENCE</label>
-                 <input name="firstName" class="form-control" type="text">
+                 <input name="residence" class="form-control" type="text">
             </div>
 
             <div class="form-group">
               <label for="firstName">PASSWORD</label>
-               <input name="firstName" class="form-control" type="password">
+               <input name="password" class="form-control" type="password">
           </div>
 
           <div class="form-group">
             <label for="firstName">CONFIRM PASSWORD</label>
-             <input name="firstName" class="form-control" type="password">
+             <input name="cpass" class="form-control" type="password">
         </div>
                 <div class="row">
                      <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
