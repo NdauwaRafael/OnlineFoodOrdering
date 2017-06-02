@@ -44,7 +44,7 @@
 <script type="text/javascript" src="../assets/js/jquery-ui.js"></script>
 <script>
 $("#restaurant").click(function(){
-  alert('hallo');
+
   $("#profile").load('mods/hotels.php');
 
 });
