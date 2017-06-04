@@ -12,13 +12,13 @@ if ($_POST) {
 
 if (!empty($fname) && !empty($lname) && !empty($email) && !empty($phone) && !empty($residence) && !empty($password) && !empty($cpass)) {
 
-  $query = "INSERT INTO `customer`(`id`, `firstname`, `lastname`, `email`, `phone`, `residence`, `password`) VALUES (NULL,'$fname','$lname','$email','$phone','$residence','$password')";
+  $query = "INSERT INTO `customer`(`id`, `firstname`, `lastname`, `email`, `phone`, `county`, `password`,`admin_control`) VALUES (NULL,'$fname','$lname','$email','$phone','$residence','$password','Active')";
   if (mysqli_query($conn, $query)) {
     echo "added";
     $_SESSION['user_email'] = $email;
     header("location: ../profile.php");
   }else {
-    echo "error occurred";
+    echo "error occurred".mysqli_error($conn);
 
   }
 

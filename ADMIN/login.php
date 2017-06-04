@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Form Examples | Bootstrap Based Admin Template - Material Design</title>
+    <title>ADMIN</title>
     <!-- Favicon-->
     <link rel="icon" href="../../favicon.ico" type="image/x-icon">
 
@@ -114,7 +114,7 @@
             </div>
             <!-- #END# Vertical Layout -->
             <!-- Jquery Core Js -->
-            <script src="plugins/jquery/jquery.min.js"></script>            
+            <script src="plugins/jquery/jquery.min.js"></script>
 <script>
   $("#loginbtn").click(function(){
      var email1 = $("#email_address").val();

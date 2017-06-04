@@ -61,6 +61,13 @@
               <input type="text" id="packets<?=$food_id; ?>" class="form-control" aria-label="Amount (to the nearest dollar)">
               <span class="input-group-addon">.00</span>
             </div>
+<br>
+            <div class="form-group tag">
+              <label class="col-sm-2 control-label">Cost:</label>
+              <div class="col-sm-10" >
+                Ksh. <div id="cost<?=$food_id; ?>">0.00</div>
+              </div>
+            </div>
          <br>
          <button class="btn btn-default" id="request<?=$food_id; ?>" type="button">Order Now</button>
           <br>
@@ -77,15 +84,25 @@
      var packets1 = $("#packets<?=$food_id; ?>").val();
      var hotel1 = "<?= $hotel_n; ?>";
      var food1 = "<?= $food_name; ?>";
+     var cost1 = $("#cost<?=$food_id; ?>").html();
      if(address1==''||packets1==''){
        alert('empty');
         $("#status_food<?=$food_id; ?>").html('<div class="alert alert-danger" role="alert">Fill in all fields before ordering</div>');
      }else{
-       $.post("config/order.php",{address:address1, packets:packets1, hotel:hotel1, food:food1}, function(data){
+       $.post("config/order.php",{address:address1, packets:packets1, hotel:hotel1, food:food1, cost:cost1}, function(data){
           $("#status_food<?=$food_id; ?>").html(data);
        })
      }
-   })
+   });
+
+$("#packets<?=$food_id; ?>").keyup(function() {
+   var pack = $("#packets<?=$food_id; ?>").val();
+   var price = "<?= $food_price;?>";
+  var amount = pack * price;
+
+  $("#cost<?=$food_id; ?>").html(amount).css("color","red").css("font-size","20px");
+
+})
 </script>
 
     <?php

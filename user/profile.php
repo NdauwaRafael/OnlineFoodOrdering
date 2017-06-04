@@ -72,7 +72,7 @@
 
                     <div class="form-group">
                       <label >Residence</label>
-                      <input value="<?= $residence; ?>" type="text" class="form-control"  placeholder="Residence" readonly>
+                      <input value="<?= $customer_county ?>" type="text" class="form-control"  placeholder="Residence" readonly>
                     </div>
                     <div class="form-group">
                       <label for="exampleInputPassword1">Password</label>

@@ -1,3 +1,17 @@
+<?php
+include "config/session.php";
+if (loggedin()) {
+	header("location: user/customer.php");
+}
+if (owner_loggin()) {
+	header("location: manager/index.php");
+}
+
+if (admin_loggin()) {
+	header("location: admin/index.php");
+}
+ ?>
+
 <!DOCTYPE html>
 <html>
 <head>

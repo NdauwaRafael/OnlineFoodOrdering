@@ -10,7 +10,8 @@ while($customer = mysqli_fetch_array($result_user)){
   $lastName =$customer['lastname'];
   $email =$customer['email'];
   $phone =$customer['phone'];
-  $residence =$customer['residence'];
+  $customer_county =$customer['county'];
+  $customer_street =$customer['street'];
 }
 
  ?>

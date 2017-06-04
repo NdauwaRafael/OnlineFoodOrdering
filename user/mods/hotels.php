@@ -8,15 +8,19 @@ $result_hotels = mysqli_query($conn, $select_hotels);
 while ($hotels = mysqli_fetch_array($result_hotels)) {
   $id = $hotels['id'];
   $hotelname =$hotels['hotelname'];
-  $location =$hotels['location'];
+  $county =$hotels['county'];
+  $street =$hotels['street'];
 
 ?>
 
 <div class="panel panel-default">
   <div class="panel-body">
      <div class="col-xs-2"><img src="../icons/meal-48.png"></div>
-     <div class="col-xs-8"><h4 class="tag"><?=$hotelname; ?><h4></div>
-     <div class="col-xs-2"><button id="menu<?= $id;?>" class="btn btn-default" type="submit">View Menu</button></div>
+     <div class="col-xs-8"><h4 class="tag"><?=$hotelname; ?><h4>
+      <p style="color:#000000 !important;"><span class="glyphicon glyphicon-map-marker"></span> <?=$county; ?></p>
+      <p style="color:#000000 !important;"><span class="glyphicon glyphicon-map-marker"></span> <?=$street; ?></p>
+     </div>
+     <div class="col-xs-2"><br><button id="menu<?= $id;?>" class="btn btn-default" type="submit">View Menu</button></div>
   </div>
 </div>
 

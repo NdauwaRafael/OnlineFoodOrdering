@@ -53,15 +53,15 @@
     <nav class="navbar navbar-cusom">
       <div class="container">
       <ul class="nav navbar-nav">
-        <li><a id="restaurant">All Restaurants</a></li>
-        <li><a href="#">Deliveries</a></li>
-        <li><a href="#">Takeaways</a></li>
-        <li><a href="#">Sit In</a></li>
+        <li><a id="restaurant"><span class="glyphicon glyphicon-th-list"></span> All Restaurants</a></li>
+        <li><a id="requests"><span class="glyphicon glyphicon-gift"></span> Requets</a></li>
+        <li><a id="messages"><span class="glyphicon glyphicon-envelope"></span> Messages</a></li>
+        <li><a id="Notifications"><span class="glyphicon glyphicon-bell"></span> Notifications</a></li>
         </ul>
 
          <ul class="nav navbar-nav navbar-right">
         <li id="loginlink"><a ><?= $firstName," ".$lastName; ?> |</a></li>
-        <li id="reglink"><a>Logout</a></li>
+        <li id="reglink"><a href="config/logout.php">Logout</a></li>
          </ul>
 
       </div>
